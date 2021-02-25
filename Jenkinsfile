@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         //be sure to replace "ncodeitdocker" with your own Docker Hub username
-       DOCKER_IMAGE_NAME = "<your-dockerhub-id>/train-schedule"
+       DOCKER_IMAGE_NAME = pranav9959786449/train-schedule"
     }
     stages {
         stage('Build') {
